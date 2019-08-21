@@ -9,7 +9,7 @@ You can find the Arduino program by clicking on the Start Menu at the bottom lef
 ### Step 2: Write your own program
 Start a new program by choosing *File | New*. Using the Blink program as an example, write your own program to blink the LED in the SOS pattern. Save your program with a name like *BlinkSOS*. Your finished program should have four functions:
 - `void setup()` sets the `pinMode` of led #13
-- `void blink(int time)` blinks the LED once for a `time` milliseconds
+- `void blink(int t)` blinks the LED once for `t` milliseconds
 - `void loop()` calls `blinik` and `delay` to create a repeating SOS pattern
 
 ### Step 3: Submit the finished program
