@@ -1,5 +1,5 @@
 # Use an Arduino to make a LED light blink in the SOS distress pattern
-In our first Arduino lab you will write a program that will blink the LED light repeatedly in the [SOS distress signal](https://en.wikipedia.org/wiki/SOS) of three short blinks, three long blinks, three more short blinks and then a pause.  The SOS distress signal is used to indicate an emergency and that someone needs help.    
+In our first Arduino lab you will write a program that will blink an LED light repeatedly in the [SOS distress signal](https://en.wikipedia.org/wiki/SOS) of three short blinks, three long blinks, three more short blinks and then a pause.  The SOS distress signal is used to indicate an emergency and that someone needs help.    
 ![](SOSblink.gif)  
 
 ### Step 1: Plug in the Arduino and start the Arduino program
