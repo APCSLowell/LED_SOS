@@ -3,7 +3,7 @@ In our first Arduino lab you will write a program that will blink an LED light r
 ![](SOSblink.gif)  
 
 ### Step 1: Plug in the Arduino and start the Arduino program
-You can find it by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *File* menu and open the program *Examples | 01 Basics | Blink*. Now go to the *Tools* menu choose *Board | Adafruit Circuit Playground*.  Click on the *Upload* button to transfer the program to the Arduino and start running. You should see led #13 (just to the right of where the USB cord connects) blink on and off.
+You can find the Arduino program by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *File* menu and open the program *Examples | 01 Basics | Blink*. Now go to the *Tools* menu choose *Board | Adafruit Circuit Playground*.  Click on the *Upload* button to transfer the program to the Arduino and start running. You should see led #13 (just to the right of where the USB cord connects) blink on and off.
 
   
 ### Step 2: Write your own program
