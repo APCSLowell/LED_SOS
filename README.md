@@ -13,5 +13,5 @@ Start a new program by choosing *File | New*. Using the Blink program as an exam
 - `void longBlink()` blinks the LED once for a long time
 - `void loop()` calls `shortBlink`, `longBlink` and `delay` to create a repeating SOS pattern
 
-### Step 7: Submit the finished program
+### Step 3: Submit the finished program
 Submit your finished program by uploading the `BlinkSOS.ino` file to Google classroom. You should be able to find it in *My Documents | Arduino*. Don't forget to click the *Mark as done* button.
