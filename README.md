@@ -3,11 +3,30 @@ In our first Arduino lab you will write a program that will blink an LED light r
 ![](SOSblink.gif)  
 
 ### Step 1: Plug in the Arduino and start the Arduino program
-You can find the Arduino program by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *File* menu and open the program *Examples | 01 Basics | Blink*. Now go to the *Tools* menu choose *Board | Adafruit Circuit Playground*.  Click on the *Upload* button to transfer the program to the Arduino and start running. You should see led #13 (just to the right of where the USB cord connects) blink on and off.
+You can find the Arduino program by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *Tools* menu choose *Board | Adafruit Circuit Playground*.  
+
+### Step 2: Run this sample program
+Copy and paste the following program
+```javas {.line-numbers}
+// the setup function runs once when you press reset or power the board
+void setup() { 
+  pinMode(13, OUTPUT);      // initialize digital pin 13 as an output.
+  digitalWrite(13, HIGH);   // turn the pin 13 LED on (HIGH is the voltage level)
+  delay(1000);              // wait for a second (1000 milliseconds
+  digitalWrite(13, LOW);    // turn the pin 13 LED off by making the voltage LOW
+  delay(1000);           
+}
+
+// the loop function runs over and over again forever
+void loop() {
+
+}
+```
+Click on the *Upload* button to transfer the program to the Arduino and start running. You should see led #13 (just to the right of where the USB cord connects) pulse rapidly as the program is transferred and then blink off. Save your program with a name like *BlinkSOS* by choosing *File | Save*.
 
   
 ### Step 2: Write your own program
-Start a new program by choosing *File | New*. Using the Blink program as an example, write your own program to blink the LED in the SOS pattern. Save your program with a name like *BlinkSOS*. Your finished program should have four functions:
+Start a new program by choosing *File | New*. Using the Blink program as an example, write your own program to blink the LED in the SOS pattern.  Your finished program should have four functions:
 - `void setup()` sets the `pinMode` of led #13
 - `void blink(int t)` blinks the LED once for `t` milliseconds
 - `void loop()` calls `blinik` and `delay` to create a repeating SOS pattern
