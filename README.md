@@ -7,7 +7,7 @@ You can find the Arduino program by clicking on the Start Menu at the bottom lef
 
 ### Step 2: Run this sample program
 Copy and paste the following program
-```javas {.line-numbers}
+```java {.line-numbers}
 // the setup function runs once when you press reset or power the board
 void setup() { 
   pinMode(13, OUTPUT);      // initialize digital pin 13 as an output.
