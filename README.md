@@ -3,7 +3,7 @@ In our first Arduino lab you will write a program that will blink an LED light r
 ![](SOSblink.gif)  
 
 ### Step 1: Plug in the Arduino and start the Arduino program
-You can find the Arduino program by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *Tools* menu choose *Board | Adafruit Circuit Playground*.  
+You can find the Arduino program by clicking on the Start Menu at the bottom left of the screen and choosing *Arduino IDE*. Then go to the *Tools* menu and choose *Board | Adafruit Circuit Playground*.  
 
 ### Step 2: Run this sample program
 Copy and paste the following program
