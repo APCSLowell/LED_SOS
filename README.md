@@ -54,3 +54,6 @@ Using the sample program as a starting point, write your own program to blink th
 
 ### Step 5: Submit the finished program
 Submit your finished program by uploading the `BlinkSOS.ino` file to Google classroom. You should be able to find it in *My Documents | Arduino*. Don't forget to click the *Mark as done* button.
+
+### Extensions:
+If you have extra time, feel free to experiment. See if you can turn the other pixels to different colors. Make different patterns, have fun and be creative!
